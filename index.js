@@ -1,7 +1,7 @@
 const { fork } = require('child_process');
 const readline = require("readline");
 
-const hostName = "ChefsKitchem.aternos.me";
+const hostName = "ChefsKitchen.aternos.me";
 const hostPort = 61563;
 
 const bots = [];
