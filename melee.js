@@ -6,6 +6,8 @@ const weaponList = [
 	'diamond_axe',
 	'iron_sword',
 	'iron_axe',
+	'copper_sword',
+	'copper_axe',
 	'wooden_sword',
 	'wooden_axe',
 	'golden_sword',
