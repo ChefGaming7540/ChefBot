@@ -47,6 +47,10 @@ class Info(commands.Cog):
         except Exception as e:
             await interaction.response.send_message(f'Error: {e}', ephemeral=True)
 
+
+async def setup(bot):
+    await bot.add_cog(Info(bot))
+
     @app_commands.command(name='help', description='Get help with commands')
     @app_commands.describe(command='Specific command to get help for')
     async def help(self, interaction: discord.Interaction, command: str = None):
